@@ -1,15 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio
+# Capstone project
 
-> check it live (https://mahdia001.github.io/Portfolio/)
+> check it live ()
 
 
 ## Built With
 
 - HTML
 - CSS
-- Flexbox
+- Javascript
 
 
 
