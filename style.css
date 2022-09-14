@@ -261,8 +261,7 @@ p {
 }
 
 .photo-1 {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to right,
       rgba(235, 64, 52, 0.7),
       rgba(230, 55, 44, 0.7)
@@ -273,8 +272,7 @@ p {
 }
 
 .photo-2 {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to right,
       rgba(235, 64, 52, 0.7),
       rgba(230, 55, 44, 0.7)
@@ -584,93 +582,92 @@ footer {
 }
 
 @media (max-width: 768px) {
-
   .menu {
-  position: fixed;
-  height: 100vh;
-  left: -100%;
-  display: flex;
-  flex-direction: column;
-  background: #333;
-  text-align: center;
-  transition: 0.5s;
-  padding-left: 20px;
-  list-style: none;
-  padding-top: 20px;
-  gap: 20px;
-}
+    position: fixed;
+    height: 100vh;
+    left: -100%;
+    display: flex;
+    flex-direction: column;
+    background: #333;
+    text-align: center;
+    transition: 0.5s;
+    padding-left: 20px;
+    list-style: none;
+    padding-top: 20px;
+    gap: 20px;
+  }
 
-.menu.active {
-  margin-top: 20px;
-  left: 0;
-  width: 100%;
-  opacity: 100px;
-  text-align: left;
-  font-size: 17px;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  line-height: 2rem;
-}
+  .menu.active {
+    margin-top: 20px;
+    left: 0;
+    width: 100%;
+    opacity: 100px;
+    text-align: left;
+    font-size: 17px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 2rem;
+  }
 
-.menu.active li a {
-  color: #fff;
-}
+  .menu.active li a {
+    color: #fff;
+  }
 
-.menu.active li a:hover {
-  color: #bf311f;
-}
+  .menu.active li a:hover {
+    color: #bf311f;
+  }
 
-.closebtn.active {
-  display: block;
-}
+  .closebtn.active {
+    display: block;
+  }
 
-.closebtn {
-  margin-top: -40px;
-  width: 100%;
-  height: 100px;
-}
+  .closebtn {
+    margin-top: -40px;
+    width: 100%;
+    height: 100px;
+  }
 
-.menu.active:nth-child(2) {
-  padding-top: -20px;
-  margin-top: -30px;
-}
+  .menu.active:nth-child(2) {
+    padding-top: -20px;
+    margin-top: -30px;
+  }
 
-.header {
-  display: none;
-}
+  .header {
+    display: none;
+  }
 
-.logonav {
-  display: none;
-}
+  .logonav {
+    display: none;
+  }
 
-.wrapper {
-  width: 400px;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-}
+  .wrapper {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
 
-.hamburger {
-  cursor: pointer;
-}
+  .hamburger {
+    cursor: pointer;
+  }
 
-.bar {
-  width: 35px;
-  height: 5px;
-  background-color: gray;
-  margin: 6px 0;
-  border-radius: 8px;
-}
+  .bar {
+    width: 35px;
+    height: 5px;
+    background-color: gray;
+    margin: 6px 0;
+    border-radius: 8px;
+  }
 
-.hamburger.active .bar:nth-child(2) {
-  opacity: 0;
-}
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
 
-.hamburger.active .bar:nth-child(1) {
-  opacity: 0;
-}
+  .hamburger.active .bar:nth-child(1) {
+    opacity: 0;
+  }
 
-.hamburger.active .bar:nth-child(3) {
-  opacity: 0;
-}
+  .hamburger.active .bar:nth-child(3) {
+    opacity: 0;
+  }
 }
