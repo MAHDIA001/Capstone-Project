@@ -4,30 +4,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <title>UI Design</title>
   </head>
   <body>
-    <header class="header"></header>
+    <header class="header"> 
+      <ul>
+         <li><a href="#" class="fa fa-twitter"></a> </li>
+        <li><a href="#" class="fa fa-facebook"></a> </li>
+        <li>English</li>
+        <li>My page</li>
+        <li>Layout</li>
+        
+      </ul>
+    </header>
     <nav class="navbar-Mobile">
-      <div class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
+      <div class="logonav">
+        <img src="images/logo.avif" alt="">
       </div>
+     <ul class="menu">
+       <li><a href="">About</a></li>
+       <li><a href="">program</a></li>
+       <li><a href="">News</a></li>
+       <li><a href="">Join</a></li>
+       <li><a href="">Sponsor</a></li>
+       <li><a href="">Compaign</a></li>
+     </ul>
     </nav>
     <div class="wrapper">
+        
       <div class="intro">
-        <h6>"Hello Freshers!"</h6>
-        <h1>Mobile first design strategy</h1>
+            <div class="bar"></div>
+       <div class="bar"></div>
+       <div class="bar"></div>
+        <h3 class="title-home">"Hello Freshers!"</h3>
+        <h1 class="h1">Mobile first design strategy</h1>
         <p class="info">
           Mobile-first design is a key ingredient to successful product design.
           Designing for the smallest screens first, and then working your way up
           empowers designers to focus on the core functions of their product.
           When you focus on the core of your product and strip away the rest,
           you are able to pinpoint the most important UX components of the
-          product. Then, as you begin designing for larger screens, you can add
-          additional elements to compliment the core functions of the product or
-          service
+          product.
         </p>
         <p class="caption">
           Discover some of the current trends for responsive user interface
@@ -41,24 +61,31 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
           suscipit sunt adipisci voluptatem asperiores tempora cupiditate
         </p>
-        <img src="images/logo.avif" alt="" />
+        <img class="logo" src="images/logo.avif" alt="" />
+        <hr>
       </div>
-      <div class="photos">
+
+          <h3 class="title">See the past confrences</h3>
+          <p class="parag">Take a look to the past global confrences</p>
+                <div class="photos">
         <div class="photo-1">
-          <h3>2019</h3>
-          <p>UI UX confrence</p>
+          <h3 class="title-photo">2019</h3>
+          <p class="paragraph">UI UX confrence</p>
         </div>
         <div class="photo-2">
-          <h3>2020</h3>
-          <p>UI Design confrence</p>
+          <h3 class="title-photo">2020</h3>
+          <p class="paragraph">UI Design confrence</p>
         </div>
       </div>
       <div class="partner">
-        <h5>Partner companies</h5>
-        <img src="images/google.jpg" alt="" />
-        <img src="images/iphone.jpg" alt="" />
+        <h3 class="partners">Partner companies</h3>
+        <div class="companies">
+         <h6 class="google">Google</h6>
+          <h6 class="google">YouTube</h6> 
+          <h6 class="google">Meta</h6>
+          </div>
       </div>
-      <footer class="footer">@copyright UI-Ux designers</footer>
+      <footer><p class="footer">@copyright UI-Ux designers</p></footer>
     </div>
   </body>
 </html>
