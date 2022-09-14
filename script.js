@@ -8,7 +8,7 @@ hamburger.addEventListener('click', () => {
 document.querySelectorAll('.menu').forEach((n) => n.addEventListener('click', () => {
   hamburger.classList.remove('active');
   menu.classList.remove('active');
-}),);
+}));
 
 // featured section
 const speaker = [
