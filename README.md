@@ -2,7 +2,7 @@
 
 # Capstone project
 
-> check it live ()
+> check it live [](https://mahdia001.github.io/Capstone-Project/)
 
 
 ## Built With
