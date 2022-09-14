@@ -139,3 +139,6 @@ for (let i = 0; i < speaker.length; i += 1) {
         </div>   
 `;
 }
+document.querySelector('.more-image').addEventListener('click', ()=> {
+ document.querySelector('.desktop-section').style.display = 'flex';
+});

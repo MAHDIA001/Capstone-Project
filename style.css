@@ -624,6 +624,7 @@ footer {
   }
 
   .closebtn {
+
     margin-top: -40px;
     width: 100%;
     height: 100px;
@@ -643,7 +644,7 @@ footer {
   }
 
   .wrapper {
-    width: 400px;
+    width: 375px;
     height: auto;
     display: flex;
     flex-direction: column;
