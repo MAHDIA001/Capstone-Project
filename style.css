@@ -671,4 +671,5 @@ footer {
 
   .hamburger.active .bar:nth-child(3) {
     opacity: 0;
-  }}
+  }
+}
