@@ -582,6 +582,7 @@ footer {
 }
 
 @media (max-width: 768px) {
+  
   .menu {
     position: fixed;
     height: 100vh;
