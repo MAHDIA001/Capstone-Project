@@ -32,7 +32,6 @@
   font-size: 17px;
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  letter-spacing: .1rem;
   line-height: 2rem;
 }
 
@@ -280,6 +279,7 @@ img {
   font-size: 19px;
   margin-top: 10px;
 }
+
 .contains {
   display: flex;
 }
@@ -333,7 +333,7 @@ img {
 
 p {
   text-align: center;
-  color: #666666;
+  color: #666;
 }
 
 .title-photo {
@@ -350,24 +350,14 @@ p {
 }
 
 .photo-1 {
-  background-image: linear-gradient(
-      to right,
-      rgba(235, 64, 52, 0.7),
-      rgba(230, 55, 44, 0.7)
-    ),
-    url(images/confrence.jpg);
+  background-image: linear-gradient(to right,   rgba(235, 64, 52, 0.7), rgba(230, 55, 44, 0.7)),url(images/confrence.jpg);
   height: 300px;
   margin: 20px;
 }
 
 .photo-2 {
   background-image: 
-  linear-gradient(
-      to right,
-      rgba(235, 64, 52, 0.7),
-      rgba(230, 55, 44, 0.7)
-    ),
-    url(images/Conferences.jpg);
+  linear-gradient(to right,rgba(235, 64, 52, 0.7),rgba(230, 55, 44, 0.7)), url(images/Conferences.jpg);
   height: 300px;
   margin: 20px;
 }
