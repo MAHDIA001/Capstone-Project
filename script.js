@@ -57,7 +57,7 @@ const speaker = [
 ];
 
 const featured = document.querySelector('.featured');
-for (let i = 0; i < speaker.length; i+=1) {
+for (let i = 0; i < speaker.length; i += 1) {
   featured.innerHTML = `
  <div class="mobile-sectio">
         <div class="contains">
