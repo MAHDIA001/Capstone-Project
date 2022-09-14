@@ -55,3 +55,5 @@ Give a star if you like this project!
 
 Design credit goes to [Cindy Shin](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
 
+## Demo
+[link to video](https://www.loom.com/share/626fcde0268641c3bca16e652a4eb72a)
