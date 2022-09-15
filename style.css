@@ -480,7 +480,7 @@ footer {
   }
 
   .info {
-    margin-left: 320px;
+    margin-left: 0  auto;
     font-size: 16px;
     font-weight: 300;
     line-height: 1em;
@@ -691,8 +691,7 @@ footer {
   }
 
   .mobile-sectio {
-    display: flex;
-    gap: 40px;
+    display: none;
   }
 
   .desktop-section {
