@@ -173,7 +173,6 @@ a.email {
   margin: 40px;
 }
 
-
 .desktop-section {
   display: none;
 }
@@ -330,9 +329,9 @@ p {
   text-align: left;
 }
 
-.youtube{
+.youtube {
   display: inline;
-   color: #818181;
+  color: #818181;
   margin-top: 10px;
   font-size: 20px;
   font-weight: bolder;
@@ -340,7 +339,9 @@ p {
   text-align: left;
 }
 
-.google, .meta, .airbnb {
+.google, 
+.meta, 
+.airbnb {
   color: #808080;
   font-size: 15px;
   font-weight: 200;
@@ -348,7 +349,6 @@ p {
   letter-spacing: 0.1rem;
   gap: 10px;
 }
-
 
 .partners {
   margin-bottom: 10px;
@@ -477,7 +477,6 @@ footer {
     text-align: center;
     margin-left: 400px;
     margin-right: 400px;
-
   }
 
   .info {
@@ -514,40 +513,41 @@ footer {
   }
 
   .line1 {
-  width: 8%;
-  background-color: #bf311f;
-  height: 1px;
-  border: none;
-  margin-left: 600px;
-}
+   width: 8%;
+   background-color: #bf311f;
+   height: 1px;
+   border: none;
+   margin-left: 600px;
+  }
 
-.mozilla {
-  color: #818181;
-  margin-top: 40px;
-  font-size: 40px;
-  font-weight: bold;
-  letter-spacing: 0.1rem;
-  text-align: left;
-}
-
-.youtube{
+  .mozilla {
    color: #818181;
-  margin-top: 30px;
-  font-size: 50px;
-  font-weight: bolder;
-  letter-spacing: 0.1rem;
-  text-align: left;
-}
+   margin-top: 40px;
+   font-size: 40px;
+   font-weight: bold;
+   letter-spacing: 0.1rem;
+   text-align: left;
+  }
 
-.google, .meta, .airbnb {
-  color: #808080;
-  font-size: 25px;
-  font-weight: 200;
-  margin-top: 50px;
-  letter-spacing: 0.1rem;
-  gap: 10px;
-}
+  .youtube {
+   color: #818181;
+   margin-top: 30px;
+   font-size: 50px;
+   font-weight: bolder;
+   letter-spacing: 0.1rem;
+   text-align: left;
+  }
 
+  .google, 
+  .meta, 
+  .airbnb {
+   color: #808080;
+   font-size: 25px;
+   font-weight: 200;
+   margin-top: 50px;
+   letter-spacing: 0.1rem;
+   gap: 10px;
+  }
 
   .logosec p {
     font-family: inherit;
@@ -649,15 +649,6 @@ footer {
     display: flex;
   }
 
-  .featured {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 50px;
-  }
-
-  
-
   .lecturesection {
     display: flex;
     flex-direction: column;
@@ -688,6 +679,10 @@ footer {
     grid-template-columns: 1fr;
     gap: 30px;
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
   }
 
   .contains {
@@ -747,7 +742,6 @@ footer {
   }
 
   .closebtn {
-
     margin-top: -40px;
     width: 100%;
     height: 100px;
