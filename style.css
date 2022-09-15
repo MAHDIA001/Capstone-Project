@@ -513,40 +513,41 @@ footer {
   }
 
   .line1 {
-   width: 8%;
-   background-color: #bf311f;
-   height: 1px;
-   border: none;
-   margin-left: 600px;
+    width: 8%;
+    background-color: #bf311f;
+    height: 1px;
+    border: none;
+    margin-left: 600px;
   }
 
   .mozilla {
-   color: #818181;
-   margin-top: 40px;
-   font-size: 40px;
-   font-weight: bold;
-   letter-spacing: 0.1rem;
-   text-align: left;
+    color: #818181;
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: left;
   }
 
   .youtube {
-   color: #818181;
-   margin-top: 30px;
-   font-size: 50px;
-   font-weight: bolder;
-   letter-spacing: 0.1rem;
-   text-align: left;
+    color: #818181;
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+    text-align: left;
   }
 
-  .google, 
-  .meta, 
-  .airbnb {
-   color: #808080;
-   font-size: 25px;
-   font-weight: 200;
-   margin-top: 50px;
-   letter-spacing: 0.1rem;
-   gap: 10px;
+  .google,
+  .meta,
+  .airbnb
+   {
+    color: #808080;
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 50px;
+    letter-spacing: 0.1rem;
+    gap: 10px;
   }
 
   .logosec p {
@@ -679,10 +680,9 @@ footer {
     grid-template-columns: 1fr;
     gap: 30px;
     margin-top: 40px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     margin-left: 50px;
+    margin-bottom: 10px;
   }
 
   .contains {
