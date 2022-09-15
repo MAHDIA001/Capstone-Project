@@ -1,8 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio
-
-> check it live ][](https://mahdia001.github.io/Portfolio/)
+# Capstone
+For more info and details check [video](https://www.loom.com/share/626fcde0268641c3bca16e652a4eb72a)
 
 
 ## Built With
