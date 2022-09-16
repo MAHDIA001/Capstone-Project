@@ -361,12 +361,37 @@ p {
 
 footer {
   height: 70px;
+  padding-top: 10px;
+  border-top: 1px solid #fff;
+  display: flex;
 }
 
+.about{
+  background-color: #333;
+}
+
+
 .footer {
-  text-align: center;
+  text-align: left;
   margin-top: 20px;
   font-weight: 400;
+  margin-left: 1%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.creative {
+  margin-top: 0;
+  text-align: left;
+  margin-left: 50%;
+}
+
+.lorem {
+  text-align: left;
+  margin-left: 50%;
 }
 
 @media (min-width: 768px) {
@@ -480,7 +505,7 @@ footer {
   }
 
   .info {
-    margin-left: 0  auto;
+    margin-left: 26%;
     font-size: 16px;
     font-weight: 300;
     line-height: 1em;
@@ -498,7 +523,7 @@ footer {
   }
 
   .email {
-    margin-left: 470px;
+    margin-left: 39%;
     margin-bottom: 40px;
   }
 
